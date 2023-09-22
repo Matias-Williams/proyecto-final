@@ -1,0 +1,134 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 7rem;
+    }
+}
+.clase-background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/img/challenger.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ancho-alto{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.section-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 3rem;
+        width: 100%;
+        height: 40vh;
+        padding: 3rem;
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: flex-start;
+        }
+            p{
+                width: 31.25rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: .9375rem ;
+                font-weight: 700;
+            }
+                }
+                    img{
+                        height: 20rem;
+                        width: auto;
+                        display: flex;
+                        justify-content: left;
+                        
+                }
+            
+
+.section-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    gap: 3rem;
+    width: 100%;
+    height: 40vh;
+    padding: 3rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    p{
+        width: 31.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: .9375rem ;
+        font-weight: 700;
+        
+    }
+    img{
+        height: 20rem;
+        width: auto;
+        display: flex;
+        justify-content: left;
+        
+}
+}
+
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 3rem;
+    width: 100%;
+    height: 40vh;
+    padding: 3rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    p{
+        width: 31.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: .9375rem ;
+        font-weight: 700;
+    }
+    img{
+        height: 20rem;
+        width: auto;
+        display: flex;
+        justify-content: left;
+        
+}
+}
+
+.h-2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+}

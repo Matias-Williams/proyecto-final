@@ -1,0 +1,27 @@
+header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 6rem;
+        padding: 0rem 4rem 0rem 0rem;
+        img{
+            height: 6rem;
+            width: auto;
+        }
+            div nav ul{
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 12rem;
+                    li a{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: .9375rem;
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 700;
+                    }
+            }
+}

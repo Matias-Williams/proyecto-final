@@ -1,0 +1,170 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0rem 4rem 0rem 0rem;
+}
+header img {
+  height: 6rem;
+  width: auto;
+}
+header div nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 12rem;
+}
+header div nav ul li a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgb(174, 0, 255);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+main h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 7rem;
+}
+
+.clase-background {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/img/challenger.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ancho-alto {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 3rem;
+  width: 100%;
+  height: 40vh;
+  padding: 3rem;
+}
+.section-1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.section-1 p {
+  width: 31.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+img {
+  height: 20rem;
+  width: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  gap: 3rem;
+  width: 100%;
+  height: 40vh;
+  padding: 3rem;
+}
+.section-2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.section-2 p {
+  width: 31.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+.section-2 img {
+  height: 20rem;
+  width: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 3rem;
+  width: 100%;
+  height: 40vh;
+  padding: 3rem;
+}
+.section-3 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.section-3 p {
+  width: 31.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+.section-3 img {
+  height: 20rem;
+  width: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.h-2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
